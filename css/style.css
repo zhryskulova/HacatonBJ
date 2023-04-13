@@ -1,0 +1,101 @@
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+body {
+  max-width: 100vw;
+  position: absolute;
+  top: 0;
+  gap: 30px;
+  /* display: flex; */
+  flex-wrap: wrap;
+  background: url("https://wallpaperaccess.com/full/311206.jpg");
+}
+.btn1 {
+  font-size: 15px;
+  padding: 4px 8px;
+  color: aliceblue;
+  border: 1px solid rgb(15, 11, 37);
+  background-color: rgba(129, 148, 157, 0.933);
+  border-radius: 9px;
+  margin-top: 15px;
+  margin-right: 75%;
+}
+
+.btn2 {
+  font-size: 15px;
+  padding: 4px 8px;
+  color: aliceblue;
+  border: 1px solid rgb(15, 11, 37);
+  background-color: rgba(129, 148, 157, 0.933);
+  border-radius: 9px;
+  margin-top: 15px;
+  margin-right: 75%;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+
+/* стили для окна поиска  */
+.inpSearch {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px rgb(13, 16, 36);
+  border-radius: 10px;
+  float: right;
+  width: 30%;
+  background: rgb(81, 138, 162);
+  /* justify-content: space-between; */
+}
+
+/* стили для кнопки поиска */
+.btn3 {
+  float: right;
+  width: 20%;
+  padding: 10px;
+  background: #677987eb;
+  color: rgb(29, 56, 69);
+  font-size: 17px;
+  border: 1px solid rgb(31, 46, 103);
+  cursor: pointer;
+}
+/* при нажатии кнопки, цвет меняет  */
+.btn3:hover {
+  background: rgb(129, 148, 174);
+}
+
+/* Clear floats */
+/* form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+} */
+
+/* ONLINE CINEMA */
+h1 {
+  font-size: 60px;
+  font-weight: 1000;
+  color: rgb(186, 186, 197);
+  margin-top: 15px;
+  margin-left: 800px;
+}
+/* video { */
+/* } */
+
+.inptt {
+  font-size: 20px;
+  color: aliceblue;
+  border: 1px solid rgb(15, 11, 37);
+  background-color: rgba(129, 148, 157, 0.933);
+  margin-top: auto;
+}
+
+h2 {
+  font-size: 30px;
+  margin: auto;
+}
+.dobavit {
+  width: 250px;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}

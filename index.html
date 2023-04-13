@@ -5,14 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <img
-      src="https://w.forfun.com/fetch/0b/0b269a9b0bc6b54f272ac66d2254c00d.jpeg"
-      alt=""
-      height="100%"
-      width="100%"
-    />
+    <div class="poisk">
+      <div>
+        <button class="btn1">РЕГИСТРАЦИЯ</button>
+        <button class="btn2">ВОЙТИ</button>
+      </div>
+      <section class="container searchInput">
+        <input class="inpSearch" type="text" placeholder="Search.." />
+        <button class="btn3">search</button>
+      </section>
+    </div>
+    <div>
+      <h1>CINEMA ONLINE</h1>
+    </div>
+    
+    <!-- ИНпуты  -->
+    <section>
+      <form>
+        <div class="allInputs">
+          <input placeholder="Name" type="text" id="inpName" class="inptt" />
+          <input placeholder="link" type="url" id="inpLink" class="inptt" />
+          <input
+            placeholder="Description"
+            type="text"
+            id="inpDescription"
+            class="inptt"
+          />
+          <input placeholder="Genre" type="text" id="inpGenre" class="inptt" />
+          <input placeholder="Year" type="text" id="inpYear" class="inptt" /> 
+          
+        </div>
+      </form>
+    </section>
+
+    <!-- MODAL -->
+    <div id="modal" class="editModal">
+      <button id="closeEditModal">X</button>
+      <form id="editForm" class="formEdit">
+        <h2>Добавление фильма</h2>
+        <input
+          type="text"
+          placeholder="Имя"
+          class="dobavit"
+          id="editInpName"
+        />
+        <input
+          type="text"
+          placeholder="Страна"
+          class="dobavit"
+          id="editInpImage"
+        />
+        <input
+          type="text"
+          placeholder="Жанр"
+          class="dobavit"
+          id="editInpNumber"
+        />
+        <input
+          type="Год"
+          placeholder="Описание"
+          class="dobavit"
+          id="editInpDesc"
+        />
+        <input
+          type="url"
+          placeholder="Ссылка"
+          class="dobavit"
+          id="editInpPrice"
+        />
+        <button type="submit">SAVE</button>
+        </form>
+
     <script src="./js/main.js"></script>
   </body>
 </html>
