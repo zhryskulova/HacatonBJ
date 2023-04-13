@@ -5,14 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <img
-      src="https://w.forfun.com/fetch/0b/0b269a9b0bc6b54f272ac66d2254c00d.jpeg"
-      alt=""
-      height="100%"
-      width="100%"
-    />
+    <!-- ! ====== start cards by begim -->
+    <div class="cards">
+      <div class="card">
+        <img
+          class="poster"
+          src="https://m.media-amazon.com/images/M/MV5BOWI2YWQxM2MtY2U4Yi00YjgzLTgwNzktN2ExNTgzNTIzMmUzXkEyXkFqcGdeQXVyMTAwMzUyOTc@._V1_SX300.jpg"
+          alt="poster"
+        />
+        <br />
+        <span>To All the Boys I've Loved Before</span>
+        <br />
+        <button id="btnDelete">delete</button>
+        <button id="btnEdit">edit</button>
+      </div>
+    </div>
+    <!-- ? ====== finish cards by begim -->
+
+    <!-- todo ============ Start Edit Modal ========= -->
+    <form>
+      <div id="editModal">
+        <button id="btnEditClose">X</button>
+        <br />
+        <input type="url" placeholder="Link" id="editInpUrl" />
+        <br />
+        <input type="text" placeholder="Movie Name" id="editInpName" />
+        <input type="text" placeholder="Genre" id="editInpGenre" />
+        <input type="number" placeholder="Year" id="editInpYear" />
+        <input type="text" placeholder="Description" id="editInpDescription" />
+        <br />
+        <button id="btnEditSave">Save Changes</button>
+        <br />
+      </div>
+    </form>
+    <!-- ? ============ Finish Edit Modal =========== -->
+
+    <!-- ! ----------START DETAILS MODAL------------->
+    <div id="modalDeatils">
+      <button id="closeBtnDetails">X</button>
+      <div id="modalContainer">
+        <div class="img">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMjQ3NjM5MTAzN15BMl5BanBnXkFtZTgwODQzMDAwNjM@._V1_SX300.jpg"
+            alt="img"
+          />
+        </div>
+        <div class="infoSide">
+          <h3>To All the Boys I've Loved Before</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
+            ex, impedit reiciendis officia quod eum dicta quasi aperiam maiores
+            deleniti.
+          </p>
+          <h3>2018</h3>
+          <h3>romantic comedy</h3>
+        </div>
+      </div>
+    </div>
+    <!-- ? ------------- FINISH DETAILS MODAL --------- -->
+
     <script src="./js/main.js"></script>
   </body>
 </html>
